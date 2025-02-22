@@ -1,6 +1,6 @@
 # 🚀 NtHadouken - Uma viagem ao submundo do Windows Internals
 
-![NtHadouken Banner](assets/banner.png)
+![NtHadouken Banner](assets/NtHadouken.jpeg)
 
 ## 📌 Sobre o Projeto
 O **NtHadouken** foi criado para orientar pesquisadores e entusiastas nos caminhos complexos do **Windows Internals**. Aqui, você encontrará papers, códigos, ferramentas e referências para aprofundar seus estudos sobre o núcleo do Windows.
