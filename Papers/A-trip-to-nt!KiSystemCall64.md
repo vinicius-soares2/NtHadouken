@@ -31,7 +31,8 @@ Quando uma chamada de sistema é realizada em um sistema de 64-bits, a instruç�
 Na figura 2, a função `NtCreateFile` é destrinchada em linguagem assembly, permitindo a compreensão detalhada do fluxo de execução. Inicialmente, o argumento localizado em `RCX` é movido para `R10`, alinhando-se à convenção de chamada esperada pelo kernel. Em seguida, o índice correspondente ao serviço na Tabela de Serviços do Sistema (SSDT) é carregado no registrador `EAX`. No caso da `NtCreateFile`, o índice utilizado é `55h`. Esse índice será processado pelo kernel durante a transição para o modo kernel, que ocorre por meio da instrução syscall. O Windows possui duas instruções que podem ser utilizadas para executar a syscall: a instrução `syscall`, representada pelo opcode `0f05` e a instrução `int 2Eh`, que possui o opcode `cd2e`. Ambas são utilizadas para causar a interrupção e alcançar o manipulador de syscall do Windows, o `nt!KiSystemCall64`, no caso da instrução `syscall` ou o `nt!KiSystemCall`, se a instrução for a `int 2Eh`. Antes da execução dessas instruções, um teste é realizado pelo próprio código da syscall para verificar se o sistema é x64 ou x86 (falarei mais deste teste em breve), como podemos ver na figura 2.
 
 ![Trecho de código da função NtCreateFile na ntdll.dll](https://media.invisioncic.com/u323382/monthly_2025_01/NtCreateFileAsm.png.075ba58ad3edf04d2c78e52f163801fd.png)
-**Figura 2 - Trecho de código da função NtCreateFile na ntdll.dll*
+
+Figura 2 - Trecho de código da função NtCreateFile na ntdll.dll*
 
 Quando a instrução syscall é executada no modo usuário, o valor armazenado no registrador MSR `IA32_LSTAR` é carregado no registrador `RIP`, transferindo a execução para o kernel. Este valor é um endereço conhecido como o ponto de entrada do Kernel RIP para syscalls. Em outras palavras, ele é o endereço do manipulador de syscall, `nt!KiSystemCall64`.
 
@@ -54,7 +55,8 @@ Quando a instrução syscall é executada, o valor de `IA32_LSTAR` é recuperado
 Desmontando o manipulador `KiSystemCall64`, vemos que a primeira instrução a ser executada é `swapgs`, como mostra a figura 3.
 
 ![Instrução swapgs no início do manipulador de syscall](https://media.invisioncic.com/u323382/monthly_2025_01/Swapgs.png.fb737f51ccfdec79cd8d7ebe34d03b3a.png)
-*Figura 3 - Instrução swapgs no início do manipulador de syscall*
+
+Figura 3 - Instrução swapgs no início do manipulador de syscall*
 
 Na verdade, existem dois manipuladores syscall diferentes, com e sem a palavra-chave ‘Shadow’. A palavra “Shadow” vem do recurso chamado de Kernel Virtual Address Shadow, que visa corrigir o bug Meltdown.
 
