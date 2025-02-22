@@ -19,6 +19,7 @@ O mecanismo de syscall existe exatamente para realizar a comunicação entre rin
 A figura 1 ilustra o fluxo de uma chamada de sistema no Windows, iniciando na camada de modo usuário. O processo começa com a chamada a uma função da API do Windows, que, por sua vez, utiliza a `ntdll.dll` para realizar a transição para o modo kernel por meio de uma instrução de sistema (syscall). Nesse exemplo, a função `CreateFile` da API do Windows é usada como referência, sendo internamente mapeada para a função `NtCreateFile` da `ntdll.dll`, responsável por invocar o interrupt handler no modo kernel.
 
 ![Fluxograma da CreateFile](https://media.invisioncic.com/u323382/monthly_2025_01/FluxogramaSyscall.png.f6a09c83c66d0416f0318d385dc6a3bc.png)
+
 Figura 1 - Fluxograma da CreateFile()*
 
 ## O manipulador de syscall do Windows
