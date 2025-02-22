@@ -44,4 +44,4 @@ O **KPCR** é uma das estruturas fundamentais no Windows, garantindo que o siste
 Como visto, a estrutura do KPCR é complexa e essencial para o desempenho de sistemas modernos. Ao entender seu funcionamento, os desenvolvedores e pesquisadores de Windows Internals podem aprofundar seus conhecimentos sobre como o sistema operacional gerencia e otimiza o uso de processadores em hardware de múltiplos núcleos.
 
 # Referências:
-  *!Geoff Chappell - [https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/kpcr.htm]
+  Geoff Chappell - [https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/kpcr.htm]
