@@ -5,7 +5,7 @@
 </p>
 
 ## 📌 Sobre o Projeto
-O **NtHadouken** foi criado para orientar pesquisadores e entusiastas nos caminhos complexos do **Windows Internals**. Aqui, você encontrará papers, códigos, ferramentas e referências para aprofundar seus estudos sobre o núcleo do Windows.
+O **NtHadouken** foi criado para orientar pesquisadores e entusiastas nos caminhos complexos do **Windows Internals**. Aqui, você encontrará papers, códigos, ferramentas e referências para aprofundar seus estudos sobre o núcleo do Windows. Espero que gostem RSRS
 
 A curiosidade é a chama que incendeia a mente. Este projeto não é apenas sobre hacking, mas sim uma busca incansável pela maestria em **sistemas operacionais e arquitetura computacional**.
 
