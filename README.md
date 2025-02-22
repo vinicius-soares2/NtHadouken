@@ -98,4 +98,3 @@ NtHadouken/
 👾 **Mantenedor:** [@lnt2Eh](https://github.com/lnt2Eh)
 
 ---
-🔥 **Se este repositório te ajudou, não esqueça de dar uma ⭐!**
