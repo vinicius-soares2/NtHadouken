@@ -16,8 +16,8 @@ Este projeto contém uma coleção de **papers técnicos** que desenvolvemos par
 
 ### 📜 Papers Disponíveis
 - [🔹 A Trip to `nt!KiSystemCall64`](Papers/A-trip-to-nt!KiSystemCall64.md)
+- [🔹 KPCR (Kernel Processor Control Region)](Papers/KPCR.md)
 - [🔹 Shadow Space](Papers/ShadowSpace.md) *(Em breve)*
-- [🔹 KPCR (Kernel Processor Control Region)](Papers/KPCR.md) *(Em breve)*
 - [🔹 TEB (Thread Environment Block)](Papers/TEB.md) *(Em breve)*
 - [🔹 PEB (Process Environment Block)](Papers/PEB.md) *(Em breve)*
 
