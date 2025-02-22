@@ -13,11 +13,11 @@ A curiosidade é a chama que incendeia a mente. Este projeto não é apenas sobr
 Este projeto contém uma coleção de **papers técnicos** que desenvolvemos para ajudar iniciantes e especialistas a entender melhor componentes do **Windows Internals**.
 
 ### 📜 Papers Disponíveis
-- [🔹 Paper: A Trip to `nt!KiSystemCall64`](papers/A-Trip-to-ntKiSystemCall64.md)
-- [🔹 Shadow Space](papers/ShadowSpace.md) *(Em breve)*
-- [🔹 KPCR (Kernel Processor Control Region)](papers/KPCR.md) *(Em breve)*
-- [🔹 TEB (Thread Environment Block)](papers/TEB.md) *(Em breve)*
-- [🔹 PEB (Process Environment Block)](papers/PEB.md) *(Em breve)*
+- [🔹 Paper: A Trip to `nt!KiSystemCall64`](Papers/A-Trip-to-ntKiSystemCall64.md)
+- [🔹 Shadow Space](Papers/ShadowSpace.md) *(Em breve)*
+- [🔹 KPCR (Kernel Processor Control Region)](Papers/KPCR.md) *(Em breve)*
+- [🔹 TEB (Thread Environment Block)](Papers/TEB.md) *(Em breve)*
+- [🔹 PEB (Process Environment Block)](Papers/PEB.md) *(Em breve)*
 
 ## 🔗 Recursos Essenciais
 
@@ -62,7 +62,7 @@ NtHadouken/
 │── README.md
 │── assets/
 │   ├── banner.png
-│── papers/
+│── Papers/
 │   ├── A-Trip-to-ntKiSystemCall64.md
 │   ├── ShadowSpace.md
 │   ├── KPCR.md
