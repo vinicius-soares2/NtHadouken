@@ -1,6 +1,5 @@
 # 🚀 NtHadouken - Uma viagem ao submundo do Windows Internals
 
-![NtHadouken Banner](assets/NtHadouken.png) 
 <p align="center">
   <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/NtHadouken.png" />
 </p>
