@@ -63,19 +63,44 @@ Este projeto contém uma coleção de **papers técnicos** que desenvolvemos par
 NtHadouken/
 │── README.md
 │── assets/
-│   ├── banner.png
+│   ├── NtHadouken.png
 │── Papers/
 │   ├── A-Trip-to-ntKiSystemCall64.md
 │   ├── KPCR.md
-│   ├── ShadowSpace.md
-│   ├── TEB.md
-│   ├── PEB.md
+│   ├── ShadowSpace.md - (Скоро)
+│   ├── TEB.md - (Скоро)
+│   ├── PEB.md - (Скоро)
 │── docs/
 │   ├── index.md
 │   ├── how-to-contribute.md
+│── tutorials/
+│   ├── Debugging/
+│   │   ├── Analyzing-BSOD-with-WinDBG.md
+│   │   ├── Extracting-Syscalls.md - (Скоро)
+│   │   ├── Debugging-Kernel-Drivers.md - (Скоро)
+│   ├── Windows-Internals/
+│   │   ├── Thread-Scheduling.md - (Скоро)
+│   │   ├── Understanding-Paging.md - (Скоро)
+│   ├── Reverse-Engineering/
+│   │   ├── Reversing-NtDLL.md - (Скоро)
+│   │   ├── Hooking-SSDT.md - (Скоро)
+│   ├── Misc/
+│   │   ├── Writing-Kernel-Exploits.md - (Скоро)
 │── src/
 │   ├── drivers/
-│   ├── tools/
+│   │   ├── basic/
+│   │   │   ├── HelloWorldDriver/
+│   │   │   ├── SimpleDeviceDriver/ - (Скоро)
+│   │   ├── security/
+│   │   │   ├── KernelKeylogger/ - (Скоро)
+│   │   │   ├── ProcessHider/ - (Скоро)
+│   │   ├── debugging/
+│   │   │   ├── KernelDebugger/ - (Скоро)
+│   │   │   ├── BSODTrigger/ - (Скоро)
+│   │   ├── memory/
+│   │   │   ├── KernelMemoryScanner/ - (Скоро)
+│   │   │   ├── VirtualMemoryMonitor/ - (Скоро)
+│   ├── tools/ - (Скоро)
 │── LICENSE
 │── CONTRIBUTING.md
 ```
