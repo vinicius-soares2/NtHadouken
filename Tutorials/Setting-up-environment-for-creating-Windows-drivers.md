@@ -1,7 +1,6 @@
 
 # Introdução
-#### Neste tutorial de hoje, iremos preparar um ambiente para aqueles que desejam começar no desenvolvimento de drivers, mas não possuem um norte.
-O objetivo deste tutorial é fornecer as informações necessárias para iniciantes conseguirem preparar seus ambientes e seguirem seu caminho na trilha de Dev Drivers NT. No entanto, vale ressaltar que esse tutorial não ensina a criação de uma máquina virtual e afins.
+#### Neste tutorial de hoje, iremos preparar um ambiente para aqueles que desejam começar no desenvolvimento de drivers, mas não possuem um norte. O objetivo deste tutorial é fornecer as informações necessárias para iniciantes conseguirem preparar seus ambientes e seguirem seu caminho na trilha de Dev Drivers NT. No entanto, vale ressaltar que esse tutorial não ensina a criação de uma máquina virtual e afins.
 
 ## 🗺️ Roadmap do tutorial:
 * Instalação do Visual Studio 2022 e WDK
