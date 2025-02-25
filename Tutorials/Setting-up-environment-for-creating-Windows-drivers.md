@@ -16,7 +16,7 @@ Na página de instalação do VS 2022, conseguimos cobrir os passos 1, 2 e 3. Vo
 ### Instalação do VS 2022
 1. Após iniciar o instalador do VS 2022, na página inicial, selecione a caixa **"Desenvolvimento para desktop com C++"**.
 2. Depois de selecionar a caixa, vá para a guia **"Componentes individuais"**, pesquise **"Spectre"** e marque a caixa **"Bibliotecas com mitigações do Spectre do MSVC v143-VS 2022 C++ x64/x86"**.
-3. Pesquise por **"WD"** e selecione a caixa **"Windows Driver Kit (WDK)"**.
+3. Pesquise por **"WDK"** e selecione a caixa **"Windows Driver Kit (WDK)"**.
 
 ## Instalação do SDK
 A instalação do SDK é simples, apenas siga os passos de **"Next", "Next"**.
