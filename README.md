@@ -79,6 +79,7 @@ NtHadouken/
 │   │   ├── (Скоро)
 │   │   ├── (Скоро)
 │   ├── Debugging/
+│   │   ├── Set--up--KDNET-network-kernel-debugging-automatically.md
 │   │   ├── Analyzing-BSOD-with-WinDBG.md
 │   │   ├── Extracting-Syscalls.md - (Скоро)
 │   │   ├── Debugging-Kernel-Drivers.md - (Скоро)
