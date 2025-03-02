@@ -44,7 +44,9 @@ Para realizar modificações nas configurações de despejo, você pode fazer o 
 
 1.  **Painel de Controle > Sistema e Sistema de Segurança>**. Selecione **Configurações avançadas do sistema**. Em **Inicialização e Recuperação**, selecione **Configurações**
 
-![image.png](attachment:98b8dc9b-1a56-4ca3-8548-7d42c35cd00e:image.png)
+<p align="center">
+  <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/Configuring.png" />
+</p>
 
 Você pode alterar a configuração do arquivo de despejo em **“Gravando informações de depuração”**
 
