@@ -15,8 +15,8 @@ A curiosidade é a chama que incendeia a mente. Este projeto não é apenas sobr
 Este projeto contém uma coleção de **papers técnicos** que desenvolvemos para ajudar iniciantes e especialistas a entender melhor componentes do **Windows Internals**.
 
 ### 📜 Papers Disponíveis
-- [🔹 A Trip to `nt!KiSystemCall64`](Papers/A-trip-to-nt!KiSystemCall64.md)
-- [🔹 KPCR (Kernel Processor Control Region)](Papers/KPCR.md)
+- [🔹`nt!KiSystemCall64`](Papers/nt!KiSystemCall64.md)
+- [🔹 KPCR (Kernel Processor Control Region)](Papers/Windows-KPCR.md)
 - [🔹 Shadow Space](Papers/ShadowSpace.md) *(Em breve)*
 - [🔹 TEB (Thread Environment Block)](Papers/TEB.md) *(Em breve)*
 - [🔹 PEB (Process Environment Block)](Papers/PEB.md) *(Em breve)*
