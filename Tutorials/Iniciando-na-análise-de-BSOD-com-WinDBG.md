@@ -33,7 +33,9 @@ A vantagem para os arquivos maiores é que, como eles contêm mais informações
 A vantagem dos arquivos menores é que eles são menores e gravados mais rapidamente. A velocidade geralmente é valiosa; se você estiver executando um servidor, talvez queira que o servidor seja reiniciado o mais rápido possível após uma falha e a reinicialização não ocorrerá até que o arquivo de despejo seja gravado.
 
 ```nasm
-Nota: Depois que um Despejo de Memória Completo ou Despejo de Memória do Kernel tiver sido criado, é possível criar um arquivo de despejo de memória pequeno do arquivo de despejo maior. Você pode consultar o comando **.dump** em [(Criar Dump de Despejo)](https://learn.microsoft.com/pt-br/windows-hardware/drivers/debuggercmds/-dump--create-dump-file-).
+Nota: Depois que um Despejo de Memória Completo ou Despejo de Memória do Kernel tiver sid
+o criado, é possível criar um arquivo de despejo de memória pequeno do arquivo de despejo
+maior. Você pode consultar o comando **.dump** em [(Criar Dump de Despejo)](https://learn.microsoft.com/pt-br/windows-hardware/drivers/debuggercmds/-dump--create-dump-file-).
 ```
 
 ## Habilitando arquivos de despejo de Kernel-Mode.
