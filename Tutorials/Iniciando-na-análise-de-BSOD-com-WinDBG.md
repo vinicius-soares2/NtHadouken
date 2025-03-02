@@ -66,7 +66,7 @@ A Microsoft especifica que:
 
 Existem diversas formas de você gerar uma BSOD de forma proposital. No entanto, hoje iremos focar no uso do utilitário **NotMyFault** do próprio SysInternals para gerar manualmente um arquivo de despejo.
 
-1. Você pode fazer o download em:  [NotMyFault](https://download.sysinternals.com/files/NotMyFault.zip)
+1. Você pode fazer o download em: [NotMyFault](https://download.sysinternals.com/files/NotMyFault.zip)
 2. Quando você abrir, você vai ter diversas opções de crash para gerar(Buffer overflow, High IRQL fault, Stack Overflow, etc…). Você só precisa selecionar um e clicar em “Crash”. No caso de hoje, eu utilizei “High IRQL Fault(Kernel-Mode)”.
 
 ## Analisando o crash com o WinDBG
