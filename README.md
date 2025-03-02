@@ -127,5 +127,5 @@ NtHadouken/
 
 👾 **Mantenedor:** [@lnt2Eh](https://github.com/lnt2Eh)
 
-## Nota: O projeto está em constante evolução, então sempre irá ter novas modificações.
+### Nota: O projeto está em constante evolução, então sempre irá ter novas modificações.
 ---
