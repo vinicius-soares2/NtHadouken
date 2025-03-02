@@ -35,7 +35,7 @@ A vantagem dos arquivos menores é que eles são menores e gravados mais rapidam
 ```nasm
 Nota: Depois que um Despejo de Memória Completo ou Despejo de Memória do Kernel tiver sid
 o criado, é possível criar um arquivo de despejo de memória pequeno do arquivo de despejo
-maior. Você pode consultar o comando **.dump** em [(Criar Dump de Despejo)](https://learn.microsoft.com/pt-br/windows-hardware/drivers/debuggercmds/-dump--create-dump-file-).
+maior. Você pode consultar o comando **.dump**.
 ```
 
 ## Habilitando arquivos de despejo de Kernel-Mode.
