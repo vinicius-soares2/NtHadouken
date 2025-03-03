@@ -13,7 +13,7 @@ Nota: Este tutorial é para iniciantes que estão tendo seus primeiros contatos 
 
 ## O que são arquivos de despejos do Windows e suas variedades?
 
-Arquivos de despejos do sistema, é um tipo de arquivos que é gerado pelo Windows quando ele entra em algum estado crítico de pane. Estes arquivos gerados tem como objetivo ajudar um administrador de sistema a entender o que casou e o que ocorreu para o Windows entrar em crash ou a famosa BSOD. 
+Arquivos de despejos do sistema, é um tipo de arquivos que é gerado pelo Windows quando ele entra em algum estado crítico de pane. Estes arquivos gerados tem como objetivo ajudar um administrador de sistema a entender o que causou e o que ocorreu para o Windows entrar em crash ou a famosa BSOD. 
 
 ### Variedades dos arquivos de despejo do Windows
 
