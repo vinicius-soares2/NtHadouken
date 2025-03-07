@@ -225,6 +225,4 @@ Select-String -Path "log.txt" -Pattern "Erro"
 
 ----------
 
-Este mini curso apresenta os conceitos fundamentais do PowerShell. Ele serve como um ponto de partida para você explorar o potencial dessa ferramenta incrível. Continue praticando e experimentando diferentes cmdlets para aprofundar seu conhecimento!
-
-Se quiser aprender mais sobre automação e scripts avançados, fique ligado no **NtHadouken!** 🚀
+Este mini curso apresenta os conceitos fundamentais do PowerShell.
