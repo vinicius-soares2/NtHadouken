@@ -6,8 +6,7 @@
 O **PowerShell** é uma poderosa linguagem de automação e linha de comando desenvolvida pela Microsoft, baseada no framework .NET. Ele oferece funcionalidades avançadas para administração de sistemas, manipulação de arquivos e gerenciamento de redes, sendo amplamente utilizado por profissionais de TI, administradores de sistemas e entusiastas da automação.
 
 Diferente do Prompt de Comando (cmd), o PowerShell trabalha com **objetos** em vez de simples texto, o que permite realizar operações mais complexas e eficientes. Ele também suporta comandos do CMD, tornando a transição entre as ferramentas mais simples.
-
-#### Nota: Este não é um curso completo. Trata-se de um mini curso com conceitos iniciais do PowerShell, abordando desde comandos básicos até aspectos intermediários que podem ser aplicados no desenvolvimento e na automação. Se você procura um aprendizado mais profundo, continue explorando e praticando os conceitos que aqui são apresentados.
+| Nota: Este não é um curso completo. Trata-se de um mini curso com conceitos iniciais do PowerShell, abordando desde comandos básicos até aspectos intermediários que podem ser aplicados no desenvolvimento e na automação. Se você procura um aprendizado mais profundo, continue explorando e praticando os conceitos que aqui são apresentados.
 ----------
 
 ## O que são Cmdlets?
@@ -226,4 +225,162 @@ Select-String -Path "log.txt" -Pattern "Erro"
 
 ----------
 
-Este mini curso apresenta os conceitos fundamentais do PowerShell.
+## IF-ELSE
+Controle de fluxo de operação do script via condições
+
+Exemplo de utilização:
+
+```powershell
+Clear-Host
+$service = Get-Service -Name spooler
+
+if ($service.Status -eq "Running")
+{
+Write-Host "Serviço em execução"
+}
+
+else
+{
+Write-Host "Serviço parado"
+}
+
+```
+
+## Looping
+-   For
+    
+    for(Inicio; condição; proximo valor)
+    
+    {
+    
+    Código de repetição
+    
+    }
+    
+-   FOREACH
+    
+	   ForEach($variavel e itens da coleção)
+    
+    {
+    
+	    Código de repetição
+    
+    }
+    
+-   While
+    
+    While(Condição)
+    
+    {
+    
+		   Código de repetição
+    
+    }
+    
+
+### Script exemplar:
+
+```powershell
+# Exemplo comando FOR
+
+Clear-Host
+$conn = 0
+$falhas = 0
+$success = 0
+
+for($counter=1; $counter -le 1; $counter++)
+{
+    Write-Host "Pingando para 192.168.2.$counter"
+    $conn = Test-Connection 192.168.1.$counter -Quiet
+    if($conn -eq "true")
+    {
+        Write-Host "A conexao para 192.168.2.$counter foi realizada" -ForegroundColor Green
+        $success++
+    }
+    else
+    {
+        Write-Host "A conexao para 192.168.2.$counter falhou" -ForegroundColor Yellow
+        $falhas++
+    }
+}
+Write-Host "O total de sucesso foi $success" -ForegroundColor Green
+Write-Host "Total de falhas: $falhas" -ForegroundColor Yellow
+
+# Exemplo de FOREACH
+Write-Host 
+foreach($arquivos in Get-Process)
+{
+    if($arquivos.ProcessName -like "Notepad*")
+    {
+        Write-Host Processo $arquivos.ProcessName.ToUpper() "aberto" -ForegroundColor Yellow
+    }
+}
+
+# Exemplo usando WHILE
+
+Write-Host
+$i = 0
+while($i -le 5)
+{
+    Write-Host $i
+    $i++
+}
+
+```
+## Funções
+Funções são comandos em um script que dura apenas durante a sessão em que estiver sendo executado.
+
+-   Longos comandos.
+-   Tarefas repetidas
+-   Uso de parâmetros
+
+## Exemplo:
+
+```powershell
+Function somar
+{
+    param($a, $b)
+    $resultado = $a + $b
+    Write-Host $resultado
+}
+
+```
+## Workflows
+Criação de scripts de longa execução gerenciáveis
+
+Pode ser utilizado para
+
+-   Interromper
+-   Suspender
+-   Reiniciar
+-   Repetir
+-   Execução paralela
+
+Para utilização com máquinas remotas, é importante a utilização de “Write-Output” pois, o cmdlet “Write-Host” imprime diretamente no host interativo e não em host remoto.
+
+## New-Objects com WScript.Shell
+## WScriptShell
+
+Você pode usar New-Object para trabalhar com componentes COM(Component Object Model). Os componentes variam desde as várias bibliotecas incluídas no WSH(Windows Script Host) até os aplicativos de ActiveX como o Internet Explorer.
+
+-   New-Object -ComObject WScript.Shell
+-   New-Object -ComObject WScript.Network
+-   New-Object -ComObject Scripting.Dictionary
+-   New-Object -ComObject Scripting.FileSystemObject
+
+## Exemplo
+
+```powershell
+$wshell = New-Object -ComObject WScript.Shell
+
+$wshell | Get-Member
+
+$wshell.Popup("NtHadouken", 0, "PowerShell", 0x1) 
+
+$wshell.Run("cmd")
+$wshell.AppActivate("Notepad")
+Start-Sleep -Seconds 2
+$wshell.SendKeys("echo NtHadouken ~")
+
+```
+Este mini curso apresenta os conceitos fundamentais do PowerShell. Ele serve como um ponto de partida para você explorar o potencial dessa ferramenta incrível. Continue praticando e experimentando diferentes cmdlets para aprofundar seu conhecimento!
