@@ -74,6 +74,8 @@ NtHadouken/
 │   ├── index.md
 │   ├── how-to-contribute.md
 │── Tutorials/
+│   ├──  PowerShell
+│   │    ├──  CursoPowerShell.md
 │   ├── Drivers/
 │   │   ├── Setting-up-environment-for-creating-Windows-drivers.md
 │   │   ├── (Скоро)
