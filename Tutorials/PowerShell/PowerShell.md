@@ -6,7 +6,7 @@
 O **PowerShell** é uma poderosa linguagem de automação e linha de comando desenvolvida pela Microsoft, baseada no framework .NET. Ele oferece funcionalidades avançadas para administração de sistemas, manipulação de arquivos e gerenciamento de redes, sendo amplamente utilizado por profissionais de TI, administradores de sistemas e entusiastas da automação.
 
 Diferente do Prompt de Comando (cmd), o PowerShell trabalha com **objetos** em vez de simples texto, o que permite realizar operações mais complexas e eficientes. Ele também suporta comandos do CMD, tornando a transição entre as ferramentas mais simples.
-
+| Nota: Este não é um curso completo. Trata-se de um mini curso com conceitos iniciais do PowerShell, abordando desde comandos básicos até aspectos intermediários que podem ser aplicados no desenvolvimento e na automação. Se você procura um aprendizado mais profundo, continue explorando e praticando os conceitos que aqui são apresentados.
 ----------
 
 ## O que são Cmdlets?
