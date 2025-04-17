@@ -1,7 +1,7 @@
 # NtHadouken - Uma viagem ao submundo do Windows Internals
 
 <p align="center">
-  <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/NtHadoukenLogo.jpg" />
+  <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/HadoukenLogo.jpg" />
 </p>
 
 ## 📌 Sobre o Projeto
