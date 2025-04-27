@@ -1,5 +1,5 @@
 # NtGlobalFlag
-<p><img src=""/></p>
+<p><img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/NtGlobalFlag.png"/></p>
 O NtGlobalFlag é um campo dentro da estrutura PEB do Windows, ela permite que debuggers controlem algumas flags de destruição de heap e afins em caso de overflows. Alguns malwares utilizaram deste método para identificação de debuggers e assim ocultar ou se autodestruir de analistas de malwares iniciantes. De qualquer modo, conhecer a NtGlobalFlag é um dos passos a trilhar o longo caminho do Windows Internals.
 
 ## Introdução
