@@ -36,14 +36,12 @@ The `Papers` directory contains technical articles focused on specific Windows i
 
 * [`nt!KiSystemCall64`](Papers/nt!KiSystemCall64.md)
 * [`KPCR - Kernel Processor Control Region`](Papers/Windows-KPCR.md)
-
-### Planned
-
-* `Shadow Space`
-* `TEB - Thread Environment Block`
-* `PEB - Process Environment Block`
-
----
+* [`IDT - Interrupt Descriptor Table`](Papers/Windows-IDT.md)
+* [`Kernel Structures`](Papers/KernelStructs.md)
+* [`NtGlobalFlag`](Papers/NtGlobalFlag.md)
+* [`PEB - Process Environment Block`](Papers/PEB.md)
+* [`TEB - Thread Environment Block`](Papers/TEB.md)
+* [`Shadow Space`](Papers/ShadowSpace.md)
 
 ## Resources
 
