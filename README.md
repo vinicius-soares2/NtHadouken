@@ -1,7 +1,7 @@
 # NtHadouken
 
 <p align="center">
-  <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/HadoukenLogo.jpg" />
+  <img src="https://github.com/lnt2eh/NtHadouken/blob/main/assets/UpdateLogo.png" />
 </p>
 
 ## About
