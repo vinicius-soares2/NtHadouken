@@ -184,6 +184,7 @@ If you find an error in one of the papers or have suggestions for improving the 
 ## Maintainer
 
 **Matheus Santos**
+**We Kill Animals**
 
 GitHub: [@lnt2Eh](https://github.com/lnt2Eh)
 
